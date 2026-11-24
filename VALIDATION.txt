@@ -1,0 +1,9 @@
+Kit sim-local-1.0 — 2026-10-06
+Document source : Cahier_des_charges_Smart_Emergency_Corrige(1).docx, version 2.0.
+Tests du moteur C++ sur PC : 44 assertions réussies.
+Sketch vérifié sur PC avec interfaces Arduino factices ; 10 trames JSON générées et parsées.
+Circuit : structure JSON vérifiée, types et broches rapprochés de la documentation.
+Non exécutés : compilation cible ESP32, simulation Wokwi, mesures de latence et essais réseau.
+Bibliothèque à résoudre dans Wokwi : DHT sensor library for ESPx. La version résolue devra être notée lors du premier lancement.
+Arduino C++ pédagogique ; version finale ESP-IDF/ESP-MQTT à réaliser.
+Seuils ADC : 1500/2500 ; retours 1300/2300. Température 45/60 ; retours 42/57.

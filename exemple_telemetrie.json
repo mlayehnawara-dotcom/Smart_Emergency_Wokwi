@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "building_id": "demo_01",
+  "zone_id": "zone_01",
+  "device_id": "esp32_01",
+  "boot_id": "boot_00003039",
+  "seq": 10,
+  "timestamp": null,
+  "time_valid": false,
+  "uptime_ms": 20000,
+  "simulation": true,
+  "measurements": {
+    "temperature_c": 25.0,
+    "humidity_pct": 45.0,
+    "mq2_raw": 512,
+    "flame": false,
+    "motion": false,
+    "door_open": false,
+    "source_present": true
+  },
+  "quality": {
+    "temperature_valid": true,
+    "mq2_ready": true
+  },
+  "intrusion_armed": false,
+  "rules_version": "sim-local-1.0",
+  "rssi_dbm": null,
+  "local": {
+    "severity": "NORMAL",
+    "health": "OK",
+    "acknowledged": false,
+    "relay": false,
+    "rules": [
+      "R10"
+    ],
+    "pending_rules": [],
+    "incidents": {
+      "FIRE": {
+        "active": "NORMAL",
+        "memorized_or_active": "NORMAL"
+      },
+      "ATMOSPHERIC": {
+        "active": "NORMAL",
+        "memorized_or_active": "NORMAL"
+      },
+      "INTRUSION": {
+        "active": "NORMAL",
+        "memorized_or_active": "NORMAL"
+      },
+      "POWER": {
+        "active": "NORMAL",
+        "memorized_or_active": "NORMAL"
+      }
+    }
+  }
+}
